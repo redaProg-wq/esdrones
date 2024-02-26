@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>ES Drones 83</title>
+
+    <!--Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!--favicons-->
+    <script
+      src="https://kit.fontawesome.com/642ea75ff0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Scripts-->
+    <script type="module" src="scriptslocal.js"></script>
+
+    <!-- Style-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Police-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="section-header-proposition-value">
+      <div class="header-proposition-value-container">
+        <!-- header sur ordi-->
+        <header>
+          <h2>ES Drones 83</h2>
+          <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </header>
+
+        <!-- header mobile -->
+        <div class="header-mobile">
+          <div class="container-icone">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+
+        <div class="div-menu-mobile">
+          <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </div>
+
+        <!-- fin de la partie header mobile -->
+
+        <div class="proposition-value" id="accueil">
+          <div class="local-container proposition-value-container">
+            <h1>ES Drones 83</h1>
+
+            <p>Pilote de Drones dans le var</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="local-container container-fluid services-container">
+            <h2>Services</h2>
+
+           <ul>
+
+            <li>
+                <div class="container-img">
+                <img src="./prise-vue-aerienne.webp" alt="Prise de vue aerienne"></div>
+                <div class="container-texte">
+                <h3>Prise de vue Aerienne</h3>
+                <p>Simple, mise en oeuvre rapide, abordable, pour des photos ou vidéos saisissantes.</p>
+                <button class="btn btn-dark">Demander un devis</button>
+                </div>
+            </li>
+
+            <li>
+                <div class="container-img">
+                <img src="./suivi-ouvrages.webp" alt=""> </div>
+                <div class="container-texte">
+
+                <h3>Suivi des Ouvrages</h3>
+                <p>Visualisation de l'avancement de vos travaux et création de dossier de suivi.</p>
+                <button class="btn btn-dark">Demander un devis</button>
+            </div>
+            </li>
+
+            <li>
+                <div class="container-img">
+                <img src="./inspection-technique.webp" alt=""> </div>
+                <div class="container-texte">
+                <h3>Inspection Technique</h3>
+                <p>Mise en oeuvre rapide  par drone de solutions de controles, pour des zones difficiles d'accés, suite, par exemple, à intemperies, greles ou vent violent.</p>
+                <button class="btn btn-dark">Demander un devis</button>
+            </div>
+            </li>
+           </ul>  
+        </div>
+    </section>
+
+    <section class="experience" >
+        <div class="local-container">
+            <div class="experience-content">
+                <div class="experience-content-img">
+                    <img src="./LogoDronEdifice (1).webp" alt="">
+                </div>
+                <div class="experience-content-text">
+                    <h2>Une <strong>experience</strong> unique</h2>
+                    <p>ES DRONE 83 offre la possibilité de valoriser votre bien dans un projet de vente, de location, de faire un état des lieux suite à des intempéries, de suivre la construction d'un ouvrage,et bien plus encore.</p>
+                    <p>Mon entreprise est certifiée DRONEDIFICE RS5523.</p>
+                    <button class="btn btn-light">Demander un devis</button>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="form container-fluid" id="contacts">
+      <div class="local-container">
+        <p class="local-container"> N'hesitez pas à nous envoyer un mail via ce formulaire, ou à nous contacter via nos informations de contacts, que vous retrouverez en pieds de page. <br>
+        Nous ne conservons pas vos informations les informations envoyées, ne les divulguerons pas à un tiers. </p>
+        <form action="" method="" class="mon-formulaire" id="monFormulaire">
+          <div class="mb-3">
+            <label class="form-label">Nom :</label>
+            <input type="name" class="form-control" id="nom" />
+            <div class="error invisible">
+              Veuillez entrer une valeur comprise entre 2 et 20 carcatères
+            </div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Votre mail :</label>
+            <input type="email" class="form-control" id="mail" />
+            <div class="error invisible">Erreur : Email invalide</div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Numéro de contact - optionnel :</label>
+            <input type="phone" class="form-control" id="numero" />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Votre Message :</label>
+            <input type="text" class="form-control" id="message" />
+            <div class="error invisible">
+              Veuillez saisir un message compris entre minimum 5 et maximum
+              100 caractères
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" id="labelCaptcha"></label>
+            <input type="number" class="form-control" id="captcha" />
+            <div class="error invisible">
+              Erreur : la saisie du captcha n'est pas correcte
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-dark">Envoyer</button>
+        </form>
+      </div>
+
+      <div class=" local-container div-paragraphe-validation-contacts">
+        <p
+          class=" paragraphe-contacts-invisible"
+        >
+          Message envoyé ! <br />
+        </p>
+        <p
+          class="paragraphe-validation-contacts paragraphe-contacts-invisible2"
+        >
+          Nous vous recontacterons sous peu ! <br />
+          <br />
+          N'hesitez pas non plus à nous contacter par téléphone, aux coordonées
+          indiquées au pied de page. <br />
+          <br />
+          Merci et @ bientot !
+        </p>
+      </div>
+
+      </div>
+    </section>
+
+    <footer class="footer ">
+      <div class="container-fluid local-container">
+        <div class="separator"></div>
+        <p class="local-container text-center"> ES Drones 83 <br>
+        06 08 80 76 92 <br>
+        esdrone83@gmail.com <br>
+      Auto-entreprise enregistrée et active dans le var</p>
+      </div>
+      
+    </footer>
+  </body>
+</html>
